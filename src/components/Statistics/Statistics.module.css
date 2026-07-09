@@ -1,0 +1,33 @@
+.section {
+  padding: 6rem 0;
+  background: linear-gradient(135deg, #0B132B, #1C2541);
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 3rem;
+}
+
+.statItem {
+  text-align: center;
+}
+
+.number {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #00B4D8;
+  margin-bottom: 0.5rem;
+}
+
+.label {
+  font-size: 1.1rem;
+  color: #cbd5e1;
+  font-weight: 500;
+}

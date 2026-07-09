@@ -1,0 +1,37 @@
+.section {
+  padding: 4rem 0;
+  background: white;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.title {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 3rem;
+}
+
+.swiper {
+  width: 100%;
+}
+
+.companyLogo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #94a3b8;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+  white-space: nowrap;
+}
+
+.companyLogo:hover {
+  opacity: 1;
+  color: #0B132B;
+}
