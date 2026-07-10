@@ -8,12 +8,12 @@ const CTA = () => {
     <section className={styles.section} id="contact">
       <div className={styles.container}>
         <div className={styles.content} data-aos="fade-up">
-          <h2 className={styles.headline}>Ready to Build Something Amazing?</h2>
+          <h2 className={styles.headline}>Ready to place an order today?</h2>
           <p className={styles.description}>
-            Let's collaborate to turn your vision into reality with cutting-edge technology
+            Let's connect with you for your best hand-crafted shoes in Nigeria
           </p>
           <Button variant="primary" size="lg">
-            Start Your Project
+            Place a Call Now
           </Button>
         </div>
         <div className={styles.particles}>

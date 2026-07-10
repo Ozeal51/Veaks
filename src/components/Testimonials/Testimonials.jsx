@@ -10,22 +10,22 @@ import { FaStar } from 'react-icons/fa';
 const Testimonials = () => {
   const testimonials = [
     {
-      name: 'John Smith',
-      company: 'TechCorp',
+      name: 'Hosea Ozeal',
+      company: 'Tech Engineer',
       quote:
-        'Veaks transformed our business with their exceptional digital solutions. Their team is professional, talented, and dedicated to excellence.',
+        'Veaks shoes are exceptional. Their team is professional, talented, and dedicated to excellence.',
     },
     {
-      name: 'Sarah Johnson',
-      company: 'InnovateCo',
+      name: 'Queen',
+      company: 'Banker',
       quote:
-        'Working with Veaks was an absolute pleasure. They delivered beyond our expectations and created a product that truly stands out.',
+        'Working at the bank always leaves with looking smart alwasy. veaks delivered beyond my expectations and created products that truly stands out.',
     },
     {
-      name: 'Michael Brown',
-      company: 'GlobalSolutions',
+      name: 'Mr Sammy',
+      company: 'Business Man',
       quote:
-        'The quality of work and attention to detail is unmatched. Veaks is our go-to partner for all digital projects.',
+        'The quality of veaks product is unmatched. Veaks is our go-to partner for all brand of men shoes projects.',
     },
   ];
 

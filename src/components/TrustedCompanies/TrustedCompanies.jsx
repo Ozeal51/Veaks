@@ -6,21 +6,21 @@ import styles from './TrustedCompanies.module.css';
 
 const TrustedCompanies = () => {
   const companies = [
-    'Microsoft',
-    'Google',
-    'AWS',
-    'Meta',
-    'Oracle',
-    'Flutterwave',
-    'Paystack',
-    'Stripe',
+    'Bankers',
+    'Civil Servants',
+    'Business people',
+    'Fathers',
+    'Community leaders',
+    'Ploiticians',
+    'Men of God',
+    'Every Moving man',
   ];
 
   return (
     <section className={styles.section}>
       <div className={styles.container}>
         <p className={styles.title} data-aos="fade-up">
-          Trusted by Leading Companies
+          Trusted by Many
         </p>
         <Swiper
           modules={[Autoplay]}

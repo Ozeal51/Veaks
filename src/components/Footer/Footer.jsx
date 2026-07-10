@@ -50,10 +50,10 @@ const Footer = () => {
           <div className={styles.column}>
             <h4 className={styles.title}>Contact</h4>
             <ul className={styles.links}>
-              <li>hello@veaks.com</li>
-              <li>+234 703 611 0000</li>
-              <li>14A Kuboye Street</li>
-              <li>Lekki, Lagos, Nigeria</li>
+              <li>info@veaks.com</li>
+              <li>+234 8122126138</li>
+              <li>Kubwa, Abuja</li>
+              <li> Nigeria</li>
             </ul>
           </div>
         </div>

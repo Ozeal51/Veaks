@@ -20,7 +20,7 @@ const Hero = () => {
             Step into Luxury with Premium Men's Shoes
           </h1>
           <p className={styles.subheadline} data-aos="fade-up" data-aos-delay="200">
-            Discover exclusive collections of sneakers, loafers, dress shoes, and more. Handcrafted for the modern gentleman.
+            Discover exclusive collections of loafers, dress shoes, and more. Handcrafted for the modern gentleman.
           </p>
           <div className={styles.buttons} data-aos="fade-up" data-aos-delay="300">
             <Button variant="primary" size="lg">

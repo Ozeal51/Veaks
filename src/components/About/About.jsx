@@ -28,7 +28,7 @@ const About = () => {
           <div className={styles.badge}>About Us</div>
           <h2 className={styles.headline}>Who We Are</h2>
           <p className={styles.description}>
-            Veaks is a premium men's footwear brand, offering exclusive collections of sneakers, loafers, dress shoes, and more. We curate only the finest, handcrafted pieces for the modern gentleman.
+            Veaks is a premium men's footwear brand, offering exclusive collections of shoes, loafers, dress shoes, and more. We curate only the finest, handcrafted pieces for the modern gentleman. CEO ( Victor Akpa )
           </p>
           <div className={styles.featureGrid}>
             {features.map((feature, index) => (
