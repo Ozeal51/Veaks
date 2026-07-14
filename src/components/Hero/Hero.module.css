@@ -62,7 +62,7 @@
 .subheadline {
   font-size: 1.25rem;
   line-height: 1.8;
-  color: #64748b;
+  color: #0653be;
   margin-bottom: 2.5rem;
   max-width: 540px;
 }
@@ -124,7 +124,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 280px;
-  background: white;
+  background: rgb(211, 182, 182);
   border-radius: 16px;
   box-shadow: 0 20px 60px rgba(11, 19, 43, 0.15);
   overflow: hidden;
