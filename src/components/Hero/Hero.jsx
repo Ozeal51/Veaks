@@ -14,7 +14,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.2 }}
         >
           <div className={styles.badge} data-aos="fade-up">
-            ✨ Premium Men's Footwear
+            ✨ Premium Men's Footwears
           </div>
           <h1 className={styles.headline} data-aos="fade-up" data-aos-delay="100">
             Step into Luxury with Premium Men's Shoes
