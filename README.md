@@ -13,7 +13,7 @@ A modern, luxury landing page for Veaks, a premium men's shoe marketplace built 
 
 ## Tech Stack
 
-- **React 19**: UI library
+- **React 19**: UI 
 - **Vite**: Build tool and dev server
 - **Framer Motion**: Animation library
 - **AOS**: Scroll animations
