@@ -2,6 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import styles from './Hero.module.css';
 import Button from '../Button/Button';
+import heroShoeImage from '../../assets/IMG-20260725-WA0015.jpg';
 
 const Hero = () => {
   return (
@@ -65,7 +66,7 @@ const Hero = () => {
             </motion.div>
           </div>
           <div className={styles.dashboard} style={{
-            backgroundImage: 'url(https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=luxury%20black%20leather%20men%20sneakers%20on%20dark%20background%20premium%20product%20photography&image_size=square_hd)',
+            backgroundImage: `url(${heroShoeImage})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center'
           }}>

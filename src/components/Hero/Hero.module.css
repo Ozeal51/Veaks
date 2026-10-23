@@ -124,8 +124,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
   width: 280px;
-  background: rgb(229, 166, 166);
+  height: 360px;
+  background: #0B132B;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   border-radius: 16px;
+  border: 8px solid rgba(255, 255, 255, 0.45);
   box-shadow: 0 20px 60px rgba(11, 19, 43, 0.15);
   overflow: hidden;
 }

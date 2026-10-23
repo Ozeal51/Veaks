@@ -56,7 +56,10 @@
 
 .cardImage {
   height: 200px;
-  background: linear-gradient(135deg, #0B132B, #1C2541);
+  background-color: #0B132B;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 .cardContent {

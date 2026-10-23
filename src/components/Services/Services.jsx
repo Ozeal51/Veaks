@@ -1,37 +1,43 @@
 import React from 'react';
 import styles from './Services.module.css';
+import serviceSneakers from '../../assets/IMG-20260725-WA0002.jpg';
+import serviceLoafers from '../../assets/IMG-20260725-WA0003.jpg';
+import serviceDressShoes from '../../assets/IMG-20260725-WA0004.jpg';
+import serviceBoots from '../../assets/IMG-20260725-WA0005.jpg';
+import serviceSandals from '../../assets/IMG-20260725-WA0006.jpg';
+import serviceDrivers from '../../assets/IMG-20260725-WA0007.jpg';
 
 const Services = () => {
   const categories = [
     {
       title: 'Men Sneakers',
       description: 'Trendy and comfortable sneakers for every occasion.',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=premium%20white%20men%20sneakers%20product%20photography&image_size=square'
+      image: serviceSneakers
     },
     {
       title: 'Men Loafers',
       description: 'Elegant loafers perfect for formal and casual wear.',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=luxury%20brown%20leather%20men%20loafers%20product%20photography&image_size=square'
+      image: serviceLoafers
     },
     {
       title: 'Men Dress Shoes',
       description: 'Sophisticated dress shoes for professional settings.',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=black%20leather%20oxford%20dress%20shoes%20premium%20product%20photo&image_size=square'
+      image: serviceDressShoes
     },
     {
       title: 'Men Boots',
       description: 'Durable and stylish boots for all weather.',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=tan%20leather%20chelsea%20boots%20for%20men%20premium%20product%20photo&image_size=square'
+      image: serviceBoots
     },
     {
       title: 'Men Sandals',
       description: 'Comfortable and stylish sandals for warm days.',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=leather%20slide%20sandals%20for%20men%20luxury%20product%20photo&image_size=square'
+      image: serviceSandals
     },
     {
       title: 'Men Drivers',
       description: 'Casual and comfortable driving shoes.',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=navy%20blue%20leather%20driving%20shoes%20for%20men&image_size=square'
+      image: serviceDrivers
     },
   ];
 

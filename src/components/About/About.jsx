@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from './About.module.css';
+import aboutImageOne from '../../assets/IMG-20260725-WA0010.jpg';
+import aboutImageTwo from '../../assets/IMG-20260725-WA0012.jpg';
+import aboutImageThree from '../../assets/IMG-20260725-WA0013.jpg';
 
 const About = () => {
   const features = [
@@ -14,13 +17,13 @@ const About = () => {
       <div className={styles.container}>
         <div className={styles.imageCollage} data-aos="fade-right">
           <div className={styles.image1} style={{
-            backgroundImage: 'url(https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=luxury%20shoe%20store%20display%20with%20premium%20men%20shoes&image_size=square_hd)'
+            backgroundImage: `url(${aboutImageOne})`
           }}></div>
           <div className={styles.image2} style={{
-            backgroundImage: 'url(https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=handcrafted%20leather%20shoes%20workshop%20premium%20photo&image_size=square_hd)'
+            backgroundImage: `url(${aboutImageTwo})`
           }}></div>
           <div className={styles.image3} style={{
-            backgroundImage: 'url(https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=man%20trying%20on%20luxury%20sneakers%20in%20store&image_size=square_hd)'
+            backgroundImage: `url(${aboutImageThree})`
           }}></div>
         </div>
 

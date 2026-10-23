@@ -6,6 +6,12 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import styles from './Portfolio.module.css';
 import Button from '../Button/Button';
+import productSneakers from '../../assets/IMG-20260725-WA0001(1).jpg';
+import productLoafers from '../../assets/IMG-20260725-WA0009.jpg';
+import productBoots from '../../assets/IMG-20260725-WA0011.jpg';
+import productDressShoes from '../../assets/IMG-20260725-WA0014.jpg';
+import productDrivers from '../../assets/IMG-20260725-WA0005.jpg';
+import productSandals from '../../assets/IMG-20260725-WA0006.jpg';
 
 const Portfolio = () => {
   const products = [
@@ -13,37 +19,37 @@ const Portfolio = () => {
       title: 'Harlem Black Leather Sneakers', 
       category: 'Sneakers',
       price: '₦25,000',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=black%20leather%20sneakers%20premium%20product%20photography&image_size=square_hd'
+      image: productSneakers
     },
     { 
       title: 'Fulton Brown Leather Loafers', 
       category: 'Loafers',
       price: '₦35,000',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=tan%20brown%20leather%20loafers%20for%20men%20premium%20product%20photo&image_size=square_hd'
+      image: productLoafers
     },
     { 
       title: 'Giliard Navy Suede Chelsea Boots', 
       category: 'Boots',
       price: '₦40,000',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=navy%20suede%20chelsea%20boots%20men%20premium%20product%20photography&image_size=square_hd'
+      image: productBoots
     },
     { 
       title: 'Alejandro Black Oxford Dress Shoes', 
       category: 'Dress Shoes',
       price: '₦45,000',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=black%20oxford%20dress%20shoes%20premium%20product%20photo&image_size=square_hd'
+      image: productDressShoes
     },
     { 
       title: 'Hubert Leon Tan Leather Drivers', 
       category: 'Drivers',
       price: '₦44,000',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=tan%20leather%20driving%20shoes%20for%20men%20premium%20product&image_size=square_hd'
+      image: productDrivers
     },
     { 
       title: 'Daza Navy Leather Sandals', 
       category: 'Sandals',
       price: '₦30,000',
-      image: 'https://coresg-normal.trae.ai/api/v1/text_to_image?prompt=navy%20leather%20slide%20sandals%20for%20men%20luxury%20product%20photography&image_size=square_hd'
+      image: productSandals
     },
   ];
 
