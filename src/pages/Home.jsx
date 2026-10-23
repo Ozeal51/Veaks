@@ -11,6 +11,7 @@ import Portfolio from '../components/Portfolio/Portfolio';
 import Testimonials from '../components/Testimonials/Testimonials';
 import CTA from '../components/CTA/CTA';
 import Footer from '../components/Footer/Footer';
+import WhatsAppChat from '../components/WhatsAppChat/WhatsAppChat';
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <Testimonials />
       <CTA />
       <Footer />
+      <WhatsAppChat />
     </>
   );
 };
